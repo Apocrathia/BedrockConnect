@@ -19,5 +19,5 @@ jobs:
       - name: Create release
         uses: softprops/action-gh-release@v1
         with:
-          files: ./target/BedrockConnect-1.0-SNAPSHOT.jar
+          files: ./serverlist-server/target/BedrockConnect-1.0-SNAPSHOT.jar
           tag_name: 'snapshot'
